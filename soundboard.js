@@ -1,1 +1,2 @@
-alert('Game over! Ready to play again?')
+var total = 2+2
+alert(total)
