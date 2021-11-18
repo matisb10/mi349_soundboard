@@ -13,12 +13,12 @@ html {
     font-size: 5em;
      }
   
-  .btn {
+  .sound {
     background-color:#1f3852;
     color: #f3f738;
     border-color: #f3f738;
     border: 1px solid; }
-    .btn:hover {
+    .sound:hover {
       background-color:#1f3852;
       border-color: #f3f738;
       color: #f3f738; }
