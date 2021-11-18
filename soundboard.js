@@ -1,4 +1,4 @@
-function play(){
-   var audio = new audio("applause.wav");
-   audio.play();
-}
+function play(element) {
+    var audio = document.getElementById(element);
+    audio.play();
+  }

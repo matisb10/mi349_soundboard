@@ -8,11 +8,13 @@
     <title>Javascript Soundboard</title>
 </head>
 <body>
-        <audio src = "applause.wav" id="myaudio"></audio>
-        <label>Try these sounds out!</label>
-        <button onclick="play()"> Applause </button>
-        <button>Baseball Hit</button>
-        <button>Boing Sound</button>
-    <script rel="javascript" src="soundboard.js"></script>
+    <h1>Soundboard</h1>
+    <input type="button" class = "sound" value="Applause" onclick="play('audio')">
+    <input type="button" class = "sound" value="Baseball Hit" onclick="play('audio2')">
+    <input type="button" class = "sound" value="Door Bell" onclick="play('audio3')">
+
+    <audio id="audio" src="applause.wav"></audio>
+    <audio id="audio2" src="baseball.wav"></audio>
+    <audio id="audio3" src="boing.wav"></audio>
 </body>
 </html>
